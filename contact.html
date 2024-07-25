@@ -1,0 +1,112 @@
+<html>
+    <head>
+<title>Contact ME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<style>
+    .container {
+      position: relative;
+      /* display: inline-block; */
+      text-align: center;
+    }
+    
+    .popup {
+      visibility: hidden;
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      height: 50px;
+      width: 200px;
+      transform: translate(-50%, 0);
+      background-color: rgb(228, 228, 175);
+      color: green;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      z-index: 1;
+    }
+    
+    .popup.show {
+      visibility: visible;
+    }
+    </style>
+<body bgcolor="43, 40, 40">
+    <marquee direction="left"><font size="30" color="silver" face="calibri">CONTACT ME !! </font></marquee>
+    <section>
+        <marquee direction="down" onmouseover="this.stop()" onmouseleave="this.start()">  <p align="right">
+            <table border=" 10" bgcolor="silver" >
+                <tr>
+                <td  align="center">
+            <font size="10" color="black" face="calibri"><a href="index.html" target="_blank">
+                HOME </font></a></td>
+            <td align="center">
+                <font size="10" color="black" face="calibri"><a href="graphic.html" target="_blank"> EXAMPLE</a>
+             </td> </font>
+            <td><font size="10" color="black" face="calibri"><a href="contact.html" target="_blank"> CONTACT</a></font></td>
+            </tr>
+        </table></p>
+        </marquee>
+      <section>
+        <section>
+            <br>
+            <p align="right">
+            <table border="10" celspacing="3" color="white">
+             <tr>
+                <td><a href="https://www.facebook.com/profile.php?id=100008557053073&mibextid=ZbWKwL" 
+                    target="_blank">
+                    <img src="facebook logo.png"></a></td>
+                <td><a href="https://www.instagram.com/ahnafashique?igsh=emtsNDNkM3Bqa2lu"
+                    target="_blank">
+                    <img src="instagram logo.png"></a></td>
+                <td><div class="container">
+                    <div id="hoverButton">
+                    
+                    <img src="gmail logo.png"></div>
+                
+                    <div id="popup" class="popup">
+                        ahnafashiqueadi@gmail.com 
+                      </div>
+                    </div>
+                </a></td>
+             </tr>   
+            </table>
+            </p>
+        </section>
+        <section><div style="height: auto;width:auto ;background-color:rgb(112, 105, 105) ; ">
+         <p><font size="8" color="white" face="calibri">
+            REASONS WHY ME :                                            
+            <ul type="square"> <li>Custom designs</li>
+                <li>Fast delivery</li>
+                <li>And Cheap!!!</li>  
+                <li>Don't mind the writings I'm working to improve it!!</li>
+            </ul>
+          
+        </font></p>
+         </section>
+         <section>
+            <hr  size="15" color="white">
+            <hr size="12" color="silver">
+            
+          <footer>
+           <center><p><font size="5" color="white" face="calibri"><i> COPYRIGHT-@-AHNAF_ASHIQUE_ADI-2024</font></i></p></center>
+          </footer>
+        </section>
+
+  
+        <script>
+            const hoverButton = document.getElementById('hoverButton');
+            const popup = document.getElementById('popup');
+            
+            hoverButton.addEventListener('mouseover', () => {
+              popup.style.visibility = 'visible';
+            });
+            
+            hoverButton.addEventListener('mouseout', () => {
+              popup.style.visibility = 'hidden';
+            });
+            </script>
+            <script src="alert.js"></script>
+
+
+</body>
+</html>
